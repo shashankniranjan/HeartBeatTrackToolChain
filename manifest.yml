@@ -1,0 +1,9 @@
+applications:
+- host: HeartBeatTrack
+  disk: 512M
+  name: HeartBeatTrack
+  command: node boot.js
+  path: .
+  domain: mybluemix.net
+  memory: 512M
+  instances: 1 
